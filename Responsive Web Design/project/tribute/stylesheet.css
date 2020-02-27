@@ -1,0 +1,64 @@
+h1 {
+    text-align: center;
+    font-family: Arial;
+}
+  
+figure {
+    background-color: auto;
+    margin: 0 10% 0 10%;
+}
+
+h2 {
+    text-align: left;
+    font-family: Arial;
+}
+#img-div{
+  text-align: center;
+}
+#heading-center{
+  text-align: center;
+}  
+img {
+    display: block;
+    margin: auto;
+    max-width: 20%;
+}
+  
+figcaption {
+    font-family: Times New Roman;
+    text-align: center;
+    font-size: 14px;
+}
+  
+body {
+    font-family: Times New Roman;
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+    color: white;
+}
+  
+ul {
+    margin: 0 17% 5% 17%;
+    border: 1px solid;
+}
+  
+li {
+    line-height: 130%;
+}
+strong{
+  font-weight: 600;
+}
+
+span {
+    display: block;
+    margin: 0 10% 2% 10%;
+    font-family: Arial;
+    font-size: 24px;
+    text-align: center;
+}
+  
+.ending {
+    text-align: center;
+    font-size: 18px;
+    color: grey;
+}
