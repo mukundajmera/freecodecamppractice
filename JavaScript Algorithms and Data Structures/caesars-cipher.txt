@@ -1,0 +1,16 @@
+function rot13(str) {
+  str = str.toUpperCase();
+  let str1 = "";
+  for(let i in str){
+    if(str[i].charCodeAt() >= 65 && str[i].charCodeAt() <= 90){
+      let code = ((str[i].charCodeAt() -65 + 13)%26 + 65);
+      str1 = str1 + String.fromCharCode(code);
+    }else{
+      str1 = str1 + str[i];
+    }
+  }
+  return str1;
+}
+
+//rot13("SERR PBQR PNZC");
+rot13("SERR CVMMN!");
